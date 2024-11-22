@@ -10,7 +10,7 @@ export default function HomeScreen({navigation}){
         }}>
             <Text>Home Screen</Text>
             <Button
-                title='Ir para Detalhes'
+                title="Ir para Detalhes"
                 onPress={() => navigation.navigate('Details')}
             />
         </View>
