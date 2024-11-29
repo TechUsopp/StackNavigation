@@ -1,5 +1,5 @@
 import React from "react";
-import { View, Text, Button } from "react-native";
+import { View, Text, Button, StyleSheet } from "react-native";
 
 export default function DetailsScreen({navigation}){
     return(
@@ -10,9 +10,19 @@ export default function DetailsScreen({navigation}){
         }}>
             <Text>Details Screen</Text>
             <Button
+                styles = {styles.botao}
                 title="Voltar"
                 onPress={() => navigation.goBack()}
             />
         </View>
     )
+
+// const styles = StyleSheet.create{
+//     .botao
+// }
+
+
+
 }
+
+
